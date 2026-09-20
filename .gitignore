@@ -1,0 +1,33 @@
+# Dependencies
+/node_modules
+/.pnpm
+/.yarn
+
+# Next.js build output
+/.next/
+/out/
+/build
+
+# Environment files containing secrets
+.env
+.env*.local
+.env.development
+.env.test
+.env.production
+
+# Local development & IDEs
+.DS_Store
+Thumbs.db
+*.pem
+.vscode/
+.idea/
+
+# Logs & Docker/local generated files
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+
+# Vercel
+.vercel
