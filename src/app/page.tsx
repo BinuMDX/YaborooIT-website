@@ -1,54 +1,12 @@
 import React from 'react';
+import Header from '@/components/Header';
 
 export default function Home() {
   return (
     <>
       {/* 1. Header */}
-      <header className="site-header" role="banner">
-        <div className="container">
-          <div>
-            <a href="#hero" className="brand-title">
-              Yaboroo Imperium Party
-            </a>
-            <span className="party-status-tag">in formation</span>
-          </div>
+      <Header />
 
-          <nav role="navigation" aria-label="Main Navigation">
-            <ul className="nav-list">
-              <li>
-                <a href="#purpose" className="nav-link">
-                  Our Purpose
-                </a>
-              </li>
-              <li>
-                <a href="#how-we-contest" className="nav-link">
-                  How We Contest
-                </a>
-              </li>
-              <li>
-                <a href="#what-we-pursue" className="nav-link">
-                  What We Pursue
-                </a>
-              </li>
-              <li>
-                <a href="#three-lanes" className="nav-link">
-                  Three Lanes
-                </a>
-              </li>
-              <li>
-                <a href="#register" className="nav-link">
-                  Register Interest
-                </a>
-              </li>
-              <li>
-                <a href="#contact" className="nav-link">
-                  Contact
-                </a>
-              </li>
-            </ul>
-          </nav>
-        </div>
-      </header>
 
       <main id="main-content">
         {/* Hero Banner */}
